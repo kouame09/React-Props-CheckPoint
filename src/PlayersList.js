@@ -1,10 +1,10 @@
 import React from "react";
-import Player from "./player.js"; 
-import players from "./players.js"; 
+import Player from "./player"; 
+import players from "./players"; 
 
 const PlayersList = () => {
   return (
-    <div>
+    <div className="players">
       {players.map((joueur, index) => (
         <Player key={index} {...joueur} />
       ))}

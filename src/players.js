@@ -6,7 +6,7 @@ const players = [
       nationalite: "Portugaise",
       numeroMaillot: 7,
       age: 38,
-      image: "./images/cristiano",
+      image: "./images/Cristiano.jpg",
     },
     {
       nom: "Lionel Messi",
@@ -14,7 +14,7 @@ const players = [
       nationalite: "Argentine ",
       numeroMaillot: 10,
       age: 36,
-      image: "./images/Messi",
+      image: "./images/Messi.jpg",
     },
     {
       nom: "Wilfried Zaha",
@@ -22,7 +22,7 @@ const players = [
       nationalite: "Ivoirienne",
       numeroMaillot: 14,
       age: 30,
-      image: "url_de_l_image_joueur_3.jpg",
+      image: "./images/Zaha.png",
     },
     {
       nom: "Kylian Mbappé",
@@ -30,7 +30,7 @@ const players = [
       nationalite: "Française",
       numeroMaillot: 10,
       age: 24,
-      image: "url_de_l_image_joueur_4.jpg",
+      image: "./images/MBappé.jpg",
     },
   ];
   
