@@ -7,13 +7,37 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: #f3f2f2;
-  height: 100vh;
+}
+
+.player{
+  height: 400px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .players {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px;
+}
+
+
+
+@media screen and (max-width: 768px){
+  .player{
+    width: 100%;
+  
+  }
+  .players {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 512px){
+  .players {
+    flex-direction: column;
+    margin: 10px;
+  }
 }
 
